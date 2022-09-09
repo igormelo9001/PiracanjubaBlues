@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Biografia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/survival"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/musicos" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:textSize="14dp"
+            android:text="BANDA FORMADA POR IGOR GUITARRA, LAWIS GAITA, DIEGO BATERIA, JOAO GUITARRA E
+                          RAFAEL NO BAIXO, TOCAMOS BLUES E DERIVAÇÕES ALÉM DE ROCK E FUNK."
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/retorno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="página inicial"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
